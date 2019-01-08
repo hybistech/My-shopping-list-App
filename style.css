@@ -1,0 +1,58 @@
+body{
+	/*background-color: skyblue;*/
+	background: url(bg.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#shopping-app{
+	text-align: center;
+	margin-top: 80px;
+}
+
+h1{
+	font-size: 90px;
+	text-transform: uppercase;
+	padding: 0px;
+	margin:0px;
+}
+
+p{
+	font-size: 20px;
+	color: white;
+}
+
+ul li{
+	list-style: none;
+	font-size: 35px;
+	border-bottom: 2px solid red;
+	/*margin: 0px 470px 10px 420px;*/
+	color: white;
+	text-transform: uppercase;
+
+}
+
+.item-default:first-child{
+	display: none;
+}
+
+.listdiv{
+	text-align: center;
+}
+
+#itemInput{
+	border-radius: 20px;
+	text-align: center;
+	font-size: 25px;
+	outline: none;
+}
+
+#btnEnter, #clear{
+	margin-top: 10px;
+	font-size: 20px;
+}
+
+#clear{
+	background-color: red;
+
+}
